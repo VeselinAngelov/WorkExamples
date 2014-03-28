@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e82f9258-8100-4bac-86df-4a52ba43ac8b" name="Default" comment="" />
+    <ignored path="IP2 JS tryouts.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Image slider.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1391524924524" ignored="false" />
+    <file path="/css.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1391565686190" ignored="false" />
+    <file path="/script.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393415740248" ignored="false" />
+    <file path="/preload.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1391517268933" ignored="false" />
+    <file path="/count.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1391555561179" ignored="false" />
+    <file path="/Index.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395058162455" ignored="false" />
+    <file path="/css2.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393501855116" ignored="false" />
+    <file path="/pageFade.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395233292021" ignored="false" />
+    <file path="/Gallery.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1391565675685" ignored="false" />
+    <file path="/slider.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1391565321479" ignored="false" />
+    <file path="/slidertryouts.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1391562598177" ignored="false" />
+    <file path="/SEBE.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393904830479" ignored="false" />
+    <file path="/css3.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393899988763" ignored="false" />
+    <file path="/sidebars.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393864245830" ignored="false" />
+    <file path="/gallery.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393700119313" ignored="false" />
+    <file path="/LayoutNav.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394458386141" ignored="false" />
+    <file path="/Privacy.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395058276797" ignored="false" />
+    <file path="/FAQ.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395058172427" ignored="false" />
+    <file path="/Mobile.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395058257608" ignored="false" />
+    <file path="/Courses.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395058181118" ignored="false" />
+    <file path="/Contacts.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395058220735" ignored="false" />
+    <file path="/Terms.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395058289015" ignored="false" />
+    <file path="/SiteMap.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393972987743" ignored="false" />
+    <file path="/AboutUs.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395058197615" ignored="false" />
+    <file path="/fullScreen.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393905878607" ignored="false" />
+    <file path="/SEBEmenu.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393947445865" ignored="false" />
+    <file path="/resizeFont.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394225737967" ignored="false" />
+    <file path="/LayoutNav2.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393937498457" ignored="false" />
+    <file path="/courses.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393957940324" ignored="false" />
+    <file path="/undergraduate.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395058299617" ignored="false" />
+    <file path="/postgraduate.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395058267879" ignored="false" />
+    <file path="/flexible.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395058229572" ignored="false" />
+    <file path="/clm.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394111579266" ignored="false" />
+    <file path="/SiteMap.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393977854784" ignored="false" />
+    <file path="/altRows.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393972376984" ignored="false" />
+    <file path="/AboutUs.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393977653032" ignored="false" />
+    <file path="/Index.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393987215007" ignored="false" />
+    <file path="/timerGal.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393985391594" ignored="false" />
+    <file path="/Terms.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394018281916" ignored="false" />
+    <file path="/Privacy.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393991432984" ignored="false" />
+    <file path="/Mobile.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393992274376" ignored="false" />
+    <file path="/countdownTimer.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1393992752333" ignored="false" />
+    <file path="/FAQ.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394017126808" ignored="false" />
+    <file path="/faq.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394014397287" ignored="false" />
+    <file path="/Contacts.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394040696996" ignored="false" />
+    <file path="/sidebarsCon.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394099092704" ignored="false" />
+    <file path="/SampleText.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394119946782" ignored="false" />
+    <file path="/sampletext.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394119867053" ignored="false" />
+    <file path="/sticky.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394239521944" ignored="false" />
+    <file path="/Accessibility.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395578528076" ignored="false" />
+    <file path="/Accessibility.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394459423821" ignored="false" />
+    <file path="/guides.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1394452686314" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Sports.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395269514798" ignored="false" />
+    <file path="/Sports.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395269284975" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/sports.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395269765366" ignored="false" />
+    <file path="/sports.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395269762474" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/js/sports.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395221937825" ignored="false" />
+    <file path="/sports.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395174837670" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/js/formatText.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395175349139" ignored="false" />
+    <file path="/formatText.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395175204848" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Accommodation.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395263545320" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/layout.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395269536991" ignored="false" />
+    <file path="/layout.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395269348845" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Welcome.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395265298721" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/userGuide.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395244948442" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Tickets.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395267760911" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/SuccessfulReg.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395176628487" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Register.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395244917096" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Menu.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395268054032" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Login.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395245835529" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Logged.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395244891921" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Index.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395176663240" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/menu.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395182908478" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/welcome.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395183659547" ignored="false" />
+    <file path="/Welcome.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395179601195" ignored="false" />
+    <file path="/welcome.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395183615153" ignored="false" />
+    <file path="/Accommodation.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395263544475" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Countries.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395244871052" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/login.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395184127579" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/logged.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395184086777" ignored="false" />
+    <file path="/logged.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395183257935" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/js/guestLog.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395181418737" ignored="false" />
+    <file path="/guestLog.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395179841577" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/js/guestNav.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395222578581" ignored="false" />
+    <file path="/guestNav.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395182670728" ignored="false" />
+    <file path="/Menu.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395268053669" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/js/getUser.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395181251011" ignored="false" />
+    <file path="/getUser.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395180761453" ignored="false" />
+    <file path="/Logged.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395181297996" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/js/login.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395245785055" ignored="false" />
+    <file path="/login.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395245776316" ignored="false" />
+    <file path="/Login.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395245835529" ignored="false" />
+    <file path="/login.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395184118900" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/accommodation.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395183128389" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/register.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395184006499" ignored="false" />
+    <file path="/register.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395184006148" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Venues.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395237397253" ignored="false" />
+    <file path="/Venues.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395234633299" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/venues.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395244848118" ignored="false" />
+    <file path="/venues.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395234687013" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/js/venues.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395226796340" ignored="false" />
+    <file path="/venues.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395226774492" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/js/pageFade.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395233292021" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/unload.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395235011287" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/js/unload.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395235383426" ignored="false" />
+    <file path="/unload.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395235152129" ignored="false" />
+    <file path="/Countries.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395237787404" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/countries.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395238158547" ignored="false" />
+    <file path="/countries.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395237818279" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Summary.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395263224203" ignored="false" />
+    <file path="/Summary.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395263224203" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/summary.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395269882243" ignored="false" />
+    <file path="/summary.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395263062845" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/js/charts.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395263194447" ignored="false" />
+    <file path="/charts.js" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395263188230" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/Landlords.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395266748516" ignored="false" />
+    <file path="/Landlords.html" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395266747414" ignored="false" />
+    <file path="/landlords.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395267124980" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/landlords.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395267189000" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Interaction Design/Interaction Design Kiosk Coursework/css/tickets.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395267800580" ignored="false" />
+    <file path="/tickets.css" changelist="e82f9258-8100-4bac-86df-4a52ba43ac8b" time="1395267791193" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="IP2 JS tryouts" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/js/pageFade.js" />
+        <option value="$PROJECT_DIR$/Index.html" />
+        <option value="$PROJECT_DIR$/FAQ.html" />
+        <option value="$PROJECT_DIR$/Courses.html" />
+        <option value="$PROJECT_DIR$/AboutUs.html" />
+        <option value="$PROJECT_DIR$/Contacts.html" />
+        <option value="$PROJECT_DIR$/flexible.html" />
+        <option value="$PROJECT_DIR$/Map.html" />
+        <option value="$PROJECT_DIR$/Mobile.html" />
+        <option value="$PROJECT_DIR$/postgraduate.html" />
+        <option value="$PROJECT_DIR$/Privacy.html" />
+        <option value="$PROJECT_DIR$/SiteMap.html" />
+        <option value="$PROJECT_DIR$/Terms.html" />
+        <option value="$PROJECT_DIR$/undergraduate.html" />
+        <option value="$PROJECT_DIR$/css/Accessibility.css" />
+        <option value="$PROJECT_DIR$/Accessibility.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IP2 JS tryouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IP2 JS tryouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IP Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Uni Docs\University Modules Year 2 Trimester 2 Labs\Integrated Project 2\IP Website\js" />
+      <recent name="D:\Uni Docs\University Modules Year 2 Trimester 2 Labs\Integrated Project 2\IP Website\css" />
+      <recent name="C:\Users\Vesko\Desktop\IP Website\css" />
+      <recent name="D:\Uni Docs\University Modules Year 2 Trimester 2 Labs\Integrated Project 2\IP2 JS tryouts\img" />
+      <recent name="D:\Uni Docs\University Modules Year 2 Trimester 2 Labs\Integrated Project 2\IP2 JS tryouts\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Uni Docs\University Modules Year 2 Trimester 2 Labs\Integrated Project 2\IP Website\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e82f9258-8100-4bac-86df-4a52ba43ac8b" name="Default" comment="" />
+      <created>1391455929247</created>
+      <updated>1391455929247</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24772727" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="32" selection-start="3795" selection-end="3795" vertical-scroll-proportion="0.17049809">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AboutUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="46" selection-start="3998" selection-end="3998" vertical-scroll-proportion="0.18582375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="46" selection-start="9269" selection-end="9269" vertical-scroll-proportion="0.18582375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flexible.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="383" column="46" selection-start="18712" selection-end="18712" vertical-scroll-proportion="0.25095785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="46" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.21839081">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgraduate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="430" column="46" selection-start="21803" selection-end="21803" vertical-scroll-proportion="0.25095785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Privacy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="46" selection-start="6178" selection-end="6178" vertical-scroll-proportion="0.21839081">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SiteMap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="46" selection-start="4759" selection-end="4759" vertical-scroll-proportion="0.21839081">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Terms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="46" selection-start="3186" selection-end="3186" vertical-scroll-proportion="0.1532567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="841" column="47" selection-start="34960" selection-end="34960" vertical-scroll-proportion="0.20306513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/courses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/undergraduate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="424" column="46" selection-start="24504" selection-end="24504" vertical-scroll-proportion="0.29501915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Accessibility.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="19" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.15151516" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Accessibility.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="243" selection-end="243" vertical-scroll-proportion="0.1954023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

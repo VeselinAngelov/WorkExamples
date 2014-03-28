@@ -1,0 +1,44 @@
+table{
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse:collapse;
+    width:1000px;
+}
+
+table, tr, td, th{
+    border:1px solid #666666;
+}
+
+tr:nth-child(odd) {
+    background-color: #fafafa;
+}
+
+td:nth-child(odd) {
+    text-align: center;
+    width:175px;
+}
+
+th{
+    background-color: #e6e6e6;
+    color: #5a5a5a;
+    padding:7px;
+}
+
+td{
+    font-family:arial;
+    font-size:15px;
+    padding:10px;
+}
+
+td a:hover{
+    text-decoration:underline;
+}
+
+caption{
+    font-family:arial;
+    font-size:22px;
+    color:#666666;
+    text-align:left;
+    margin-bottom:25px;
+}
+

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="js/jquery1110.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <title>Postgraduate Courses</title>
+    <script src="js/pageFade.js"></script>
+    <script src="js/fullScreen.js"></script>
+    <script src="js/sticky.js"></script>
+    <script src="js/courses.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/LayoutNav.css">
+    <link rel="stylesheet" type="text/css" href="css/clm.css">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
+</head>
+<body>
+
+<div id="loadBackground">
+    <img id="loader" src="img/loadingGif.gif" alt="loaderAnim">
+</div>
+
+<div id="content">
+
+    <a href="Index.html" class="nav"><img id="logo" src="img/gcu_logo.png" height="80" width="160" alt="logo" >  </a>
+
+    <form method="get" action="http://www.google.com/search">
+        <a href="AboutUs.html" class="line formEl nav">About Us</a>
+        <a href="SiteMap.html" class="formEl nav">Site Map</a>
+        <input type="text" name="q" size="37" maxlength="255" value="" placeholder="Search Google..." />
+    </form>
+
+
+    <!--Navigation-->
+
+    <div id="navBar">
+
+        <ul id="nav">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Map.html">SEBE Map</a></li>
+            <li><a href="Courses.html">Course List</a></li>
+            <li><a href="Accessibility.html">Accessibility</a></li>
+            <li><a href="Contacts.html">Contacts</a></li>
+        </ul>
+
+    </div>
+    <!--Content-->
+
+    <div id="sidemenu">
+        <h3 id="request">Please select a course</h3>
+        <div id='courselist'>
+            <ul>
+                <li class='has-sub'><a href='Courses.html'>Course List</a>
+                    <ul>
+                        <li><a href='undergraduate.html'>Undergraduate</a></li>
+                        <li><a href='postgraduate.html'>Postgraduate</a></li>
+                        <li><a href='flexible.html'>Flexible</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <table>
+        <caption id="captionSize">Postgraduate Courses</caption>
+        <tr>
+            <th>Award Type</th>
+            <th>Course Title</th>
+            <th>Duration</th>
+            <th>Attendance</th>
+            <th>Fee</th>
+            <th>Start Date</th>
+            <th class="lastH">Info</th>
+        </tr>
+        <tr>
+            <td>MA/PgD</td>
+            <td>3D Design for Virtual Environments</td>
+            <td>1 Year</td>
+            <td>Full Time</td>
+            <td>£4200.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info">
+            <td colspan="7" ><h4>Programme Description</h4><br>
+
+This programme is oriented towards current industrial needs, technology and practice and is intended to provide the students with the key skills required to develop both practical and theoretical proficiency in any specialist area of 3D animation. It aims to address the demand for visual designers with the creative vision and technical skills, needed to support core design skill sets that exploit the animation and visualisation processes.Working in a predominately digital environment, you will explore the relationships between the use of video and animation materials within digital video, multimedia and web publishing. This allows for the experimentation with interactive media types and techniques in order to enhance understanding, learning and product conceptualisation.<br><br>
+
+<h4>Programme Structure</h4><br>
+
+Modules: Digital Media Technology and Development, Video and Motion Graphic, Digital Media Publishing and Commercialisation, Digital Portfolio Production Techniques, Research and Project Methods, Project/Dissertation
+
+           </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>MSc/PgD</td>
+            <td>Applied Instrumentation & Control (Distance Learning)</td>
+            <td>2-5 Years</td>
+            <td>Distance Learning</td>
+            <td>£2800.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info1'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info1">
+            <td colspan="7" ><h4>Programme Description</h4><br>
+
+The instrumentation professional must be equipped to understand the principles and implementation of instrumentation, the importance of efficient and reliable measurement and control systems and have a suitably wide perspective of the subject area so that a number of different approaches to a problem can be identified.<br>
+
+Students completing this postgraduate programme will have the confidence to develop new ideas and implement real measurement systems making them of considerable value to industry.<br>
+
+The MSc Applied Instrumentation and Control is accredited by the Institute of Measurement and Control as meeting the ECUK further learning requirements for Chartered Engineering registration.<br>
+
+The curriculum has been developedin consultation with industry and can be broadly grouped in three areas:<br>
+
+The introduction of new facts and concepts in measurement and control (Measurement Theory and Devices, DataAcquisition and Analysis, Control Systems, Instrument Communication and Networking).<br>
+
+The application of facts and concepts to real measurement problems and systems (Measurement Systems, Industrial Case Studies and a student project).<br>
+
+Subjects which are of general importance to the professional engineer such as Safety and Safety Management (incorporating a section on ethics), Project Planning and Management.<br><br>
+
+<h4>Programme Structure</h4><br>
+
+The programme consists of two parts, a set of taught modules, followed by the Masters Project. There are eight taught modules which are delivered consecutively in three week blocks. Each block consists of a lecture week followed by two weeks of laboratory work, tutorials and private study.<br>
+Control Systems<br>
+Data Acquisition and Analysis<br>
+Industrial Case Studies<br>
+Instrument Communication and Networking<br>
+Measurement Systems<br>
+Measurement Theory and Devices<br>
+Professional Practice<br>
+Project/Dissertation<br><br>
+
+On satisfactory completion of the taught modules students will proceed to carry out a major project and submit a final dissertation for examination. This can be completed over a three month period following the taught modules. Thus, in the full time mode, the MSc can be completed in one year (15 months for January start).
+
+           </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>MSc/PgD</td>
+            <td>Construction Economics</td>
+            <td>13 Months</td>
+            <td>Full Time</td>
+            <td>£8400.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info2'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info2">
+            <td colspan="7" ><h4>Programme description</h4><br>
+
+Designed to meet the unprecedented demand for financially aware construction professionals, the MSc Construction Economics, accredited by the Royal Institution of Chartered Surveyors (RICS), provides all the necessary skills. You will learn how to manage costs and the value of financial control in the modern industry.<br>
+
+With construction professionals working in many different sectors, cost management is a key part of project delivery in the commercial world. In addition, the industry is driven by the need to find sustainable and environmentally sound construction methods and innovative management practices to replace traditional non-risk-sharing procurement routes. These new approaches require highly skilled professionals who are capable of taking up challenging roles in a range of specialist areas.<br>
+
+Offering a wide choice of modules, which cover a range of issues relating to construction economics, the programme provides the necessary skills to manage costs and the value of construction projects.<br><br>
+
+<h4>What you'll learn</h4><br>
+
+Modules include:<br>
+Construction Economics and Procurement<br>
+Development and Project Economics<br>
+The Management of Safety, Health and Environmental Risks<br>
+Construction Contracts and Disputes<br>
+Construction Financial Management<br>
+International Construction Project Finance<br>
+Risk and Valuable Management<br>
+Project Management.<br>
+
+
+             </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>MSc/PgD</td>
+            <td>Maintenance Management</td>
+            <td>2 Years</td>
+            <td>Part Time</td>
+            <td>£2800.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info3'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info3">
+            <td colspan="7" ><h4>Programme Description</h4><br>
+
+This programme aims to equip engineering graduates of varying disciplines with the knowledge and skills to allow them to become effective maintenance managers in a wide range of industries.<br>
+
+Maintenance has become a strategic concern. It is recognised that having a well thought out and carefully implemented maintenance strategy has significant financial impact.<br>
+ 
+The maintenance function has become more complex, involving technical and management skills and requiring the flexibility to cope within a dynamic business environment.<br>
+
+The performance of a product or system depends not only on the design or operation, but also on effective servicing and maintenance of the product or system during its operational lifetime. Modern technology introduces key factors such as downtime and product quality when measuring maintenance effectiveness. In addition, safety and environmental considerations have become increasingly important.<br>
+
+To achieve an optimal cost-effective maintenance strategy, the analysis of failures and development and use of mathematical and statistical models is required.<br><br>
+
+<h4>Programme Structure</h4><br>
+
+<h4>Core Modules:</h4> <br>
+Maintenance Management<br>
+Electrical Condition Monitoring<br>
+Strategy and Innovation<br>
+Project Planning and Management<br>
+Non-Destructive Testing Methodology<br>
+Reliability and Availability Assessment<br>
+Safety and Safety Management<br>
+Mechanical Condition Monitoring<br>
+MSc Project<br>
+			
+			
+			</td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>MSc/PgD</td>
+            <td>Mechanical Engineering with Options in Design or Manufacture</td>
+            <td>1 Years</td>
+            <td>Full Time</td>
+            <td>£4200.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info4'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info4">
+            <td colspan="7" ><h4>Programme Description</h4><br>
+
+Mechanical Engineers have traditionally been not only specialists but also generalists who have the breadth of expertise necessary for operation as project managers, leaders and innovators. This programme will, in addition to advancing the core knowledge base of the discipline in whatever option is studied, provide the necessary and continuing development of appropriate inter-personal skills at this level and therefore enable effective management of resources and planning objectives.<br><br>
+
+<h4>Programme Structure</h4><br>
+
+<h4>Core Modules:</h4> <br>
+Project Planning and Methodology, Strategy and Innovation, Advanced Computer-Aided Engineering, Condition Monitoring
+Specialist Modules (Design): Applied Thermodynamics and Computational Fluid Dynamics, Advanced Engineering Mechanics (Structures), Advanced Engineering Mechanics (Dynamics)<br>
+Specialist Modules (Manufacture): Maintenance Management, Manufacturing Management, Ethics, Safety and Safety Management<br><br>
+
+
+<h4>Note:</h4><br>
+ These advanced modules provide the student with an exciting opportunity to gain further expertise in state-of-the-art software within the area of mechanical design, including 3D modelling and manufacturing simulation and management.
+            	
+				
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>MSc/PgD</td>
+            <td>Network Security</td>
+            <td>1 Years</td>
+            <td>Full Time</td>
+            <td>£4200.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info5'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info5">
+            <td colspan="7" ><h4>Programme Description</h4><br>
+
+The programme aims to provide students with the knowledge and skills needed to build secure networks. It is concerned with the design and implementation of secure network infrastructures. It will include study of Security Technologies, Perimeter Security, Virtual Private Networking, and the Design, Installation, Configuration and Maintenance of Routers and Firewalls. The programme will be delivered with particular emphasis on hands-on experience, instructor-led and e-learning for students.<br><br>
+
+<h4>Programme Structure</h4><br>
+
+Modules shown are indicative: Semester A: Advanced Routing, Simulation of Computer Networks, Switching, Research and Project Methods, Ethics and Technology Semester B: Research and Project Methods, Secure Converged WAN, Network Security 1, Network Security 2, Technology and Environmental Management  	
+				
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>MSc/PgD</td>
+            <td>Telecommunications Engineering</td>
+            <td>12 Months</td>
+            <td>Full Time</td>
+            <td>£4200.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info6'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info6">
+            <td colspan="7" ><h4>Programme Description</h4><br>
+
+The MSc provides anintegrated approach to understanding and evaluating the design, andimplementation of end-to-end wireless communication systems. This integrativeapproach includes digital encoding/decoding techniques and algorithms; wirelesscommunication system architectures; infrastructures and hardware; the design ofmobile transmitting and receiving antennas; transmission signal paths andpropagation environments; and the use of digital signal processing techniques.<br><br>
+
+<h4>Programme Structure</h4><br>
+
+Students complete six taught modules in trimester A and B; and an MSc project in trimester C.<br>
+<h4>Trimester A:</h4><br>
+Wireless & Mobile Communications Systems; Digital Communications; and Research Methods & Professional Practice (delivered over trimesters A and B).<br>
+<h4>Trimester B:</h4><br>
+Fundamentals of Simulation of Computer Networks; Optical Comms & Photonic Networks; and Real-time Digital Signal Processing.
+            	
+				
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>MSc/PgD</td>
+            <td>Web Systems Development (.NET)</td>
+            <td>1-2 Years</td>
+            <td>Part Time</td>
+            <td>£2800.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info7'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info7">
+            <td colspan="7" ><h4>Programme Description</h4><br>
+
+Microsoft's .NET framework provides the power behind many of today's interactive data-driven websites.<br> <br>
+
+This course will provide candidates who have some experience of software development technologies with the opportunity to develop their careers by enhancing their skills in .NET development.<br> <br>
+
+This academic course also provides preparation for Microsoft professional certification in .NET technologies.<br> <br>
+
+The programme is appropriate for individuals who are currently working with .NET development tools and technologies and who wish to enhance and demonstrate their skills in these. It is also appropriate for individuals who have skills in other software development technologies and who wish to acquire skills and knowledge of .NET with a view to broadening their employment or advancement prospects.<br> <br>
+
+On this programme you will learn a set of skills in the fundamentals of .NET application development along with the specialised knowledge required to build enterprise applications using ASP.NET web development, ADO.NET database integration and WCF communication technologies. <br> <br>
+
+You can achieve a Postgraduate Certificate award after one academic year of study, with a further year of study leading to a Postgraduate Diploma.<br> <br>
+
+<h4>Programme Structure</h4> <br>
+
+<h4>Foundations of .NET Development 1 and 2</h4> <br> <br>
+
+These modules seek to equip students with a range of fundamental and advanced skill sin designing and implementing applications on the .NET framework.<br>
+<h4>ASP.NET Web Development 1 and 2</h4> <br> <br>
+
+These modules provide a solid grounding in the design and development of web applications using ASP.NET MVC technology and go on to cover an extensive range of advanced MVC techniques.<br>
+<h4>.NET Database Technologies</h4> <br> <br>
+ 
+This module covers a wide range of approaches to the design and development of .NET applications which access and manipulate data from a range of sources including relational and NoSQL databases.<br>
+<h4>Windows Azure and Communication Foundation Technology</h4> <br> <br>
+
+The module aims to equip students with a competitive edge in understanding and developing applications built from service oriented components which are hosted locally or deployed on the Windows Azure cloud platform.<br>
+<h4>Rich Internet Applications</h4> <br> <br>
+
+This module aims to provide students with an understanding of the issues, principles, techniques and tools associated with the development of rich web client applications which provide the features of traditional desktop applications within a web broswer.<br>
+<h4>Enterprise Application Architecture and Design Patterns</h4> <br> <br>
+
+This module covers enterprise application architectural concepts as well as the use of design patterns for the construction of software systems using the Microsoft.NET platform.<br>
+Academic credit for a module is achieved by passing the university assessment for that module (typically written exams and/or coursework). Microsoft certification exams are independent of the course, and candidates can make their own arrangements to sit these at any prometric test centre.
+            	
+				
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>MSc/PgD</td>
+            <td>Building Services Engineering</td>
+            <td>2 Years</td>
+            <td>Part Time</td>
+            <td>£3000.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info8'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info8">
+            <td colspan="7" ><h4>Programme Description</h4><br>
+
+Engineers now require a period of postgraduate study (a 'matching section' or 'period of further learning') after achieving an honours degree on an accredited BEng programme before they can become eligible for chartered (CEng) status. This requirement was first introduced by the Engineering Council in Standards and Routes to registration (SARTOR) in 1997. An updated document (UK-SPEC, 2004) introduced the term 'Period of Further Learning' to define the MSc requirement. The MSc Building Services Engineering programme has been designed primarily as a 'period of further learning' to follow an Honours degree in Building Services Engineering or Environmental Engineering. The degree is approved by the Chartered Institution of Building Services Engineers(CIBSE). The MSc degree and a suitable accredited BEng (Hons) degree will together form the educational base for full CEng status.<br> <br>
+
+<h4>Programme Structure</h4><br>
+
+Core: Research Methods; Building Simulation; Smoke Control Systems Design. 
+Energy/Environment(options): Resources & Sustainability; Water Quality and Waste Water Treatment; Renewable Energy Technologies; Air Quality Management. 
+Management(options): Construction and Property Enterprise Management; Construction Project Finance; Managing the Construction Process; Project Management, Strategic Facilities Management; Construction Dispute Resolution; Healthand Safety in Construction. 
+Facilities management (options): Innovative procurement, Fire Safety Design and a Project.
+            	
+				
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>MSc/PgD</td>
+            <td>Construction Management</td>
+            <td>13 Months</td>
+            <td>Full Time</td>
+            <td>£4200.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info9'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info9">
+            <td colspan="7" ><h4>Programme Structure</h4> <br>
+
+Students will undertake the following six core modules:<br>
+ 
+Trimester A – Construction Management, Health and Safety in Construction and Sustainable Design and Construction<br> <br>
+ 
+Trimester B – Strategic Management in Construction and Property, Construction Financial Management and Project
+Management.<br> <br>
+ 
+Trimester C - Masters’ Dissertation<br> <br>
+ 
+In addition to the core modules, students will undertake a further two modules from the following options (to be agreed with the programme leader):<br> <br>
+ 
+Construction Economics and Procurement,<br>
+Development and Project Economics, <br>
+Construction Contracts and Disputes,<br>
+International Construction Project Finance and Risk and Value Management.<br>
+            	
+				
+				
+            </td>
+
+        </tr>
+
+    </table>
+
+
+
+</div>
+    <!--Footer-->
+
+<img src="img/full_screen.png" class="fullscr" onclick="toggleFullScreen();" id="fsButton" height="22" width="22" alt="full_screen_button" >
+
+<div id="footerBar">
+        <ul id="footer">
+            <li><a class="nav" href="Terms.html">Terms &amp; Conditions</a></li>
+            <li><a class="nav" href="Privacy.html">Privacy Policy</a></li>
+            <li><a class="nav" href="FAQ.html">FAQ</a></li>
+            <li><a class="nav" href="Mobile.html">Mobile</a></li>
+        </ul>
+        <div id="share-buttons">
+            <a href="http://www.facebook.com/sharer.php?u=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+            <a href="http://twitter.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+            <a href="https://plus.google.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="js/jquery1110.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <title>SEBE Map</title>
+    <script src="js/pageFade.js"></script>
+    <script src="js/sidebars.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/sticky.js"></script>
+    <script src="js/fullScreen.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/SEBEmenu.css">
+    <link rel="stylesheet" type="text/css" href="css/LayoutNav.css">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
+</head>
+<body>
+
+<div id="loadBackground">
+<img id="loader" src="img/loadingGif.gif" alt="loaderAnim">
+</div>
+
+<div id="content">
+
+    <a href="Index.html" class="nav"><img id="logo" src="img/gcu_logo.png" height="80" width="160" alt="logo" >  </a>
+
+    <form method="get" action="http://www.google.com/search">
+        <a href="AboutUs.html" class="line formEl nav">About Us</a>
+        <a href="SiteMap.html" class="formEl nav">Site Map</a>
+        <input type="text" name="q" size="37" maxlength="255" value="" placeholder="Search Google..." />
+    </form>
+
+    <!--Navigation-->
+
+    <div id="navBar">
+
+        <ul id="nav">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Map.html">SEBE Map</a></li>
+            <li><a href="Courses.html">Course List</a></li>
+            <li><a href="Accessibility.html">Accessibility</a></li>
+            <li><a href="Contacts.html">Contacts</a></li>
+        </ul>
+
+    </div>
+
+    <!--Content-->
+
+<div id="sidemenu">
+
+    <h3 id="request">Please select a department</h3>
+
+<div id="sidebar">
+    <h3>Departments</h3>
+    <div id="s1" class="item"><a class="color" href="#" id="ten" >Department of Construction and Surveying</a></div>
+    <div id="s2" class="item"><a class="color" href="#" id="eleven">Department of Mechanical, Electrical and Environmental Engineering</a></div>
+    <div id="s3" class="item"><a class="color" href="#" id="twelve">Department of Computer, Communications and Interactive Systems</a></div>
+</div>
+
+<div id="sidebar1">
+    <h3>Buildings</h3>
+    <div id="s4" class="item"><a class="color" href="#" id="one">George&nbsp;Moore</a></div>
+    <div id="s5" class="item"><a class="color" href="#" id="two">Hamish&nbsp;Wood</a></div>
+    <div id="s6" class="item"><a class="color" href="#" id="three">Charles&nbsp;Oakley<br>&nbsp;Laboratories</a></div>
+</div>
+
+<div id="sidebar2">
+    <h3>Buildings</h3>
+    <div id="s7" class="item"><a class="color" href="#" id="four">George&nbsp;Moore</a></div>
+    <div id="s8" class="item"><a class="color" href="#" id="five">Hamish&nbsp;Wood</a></div>
+    <div id="s9" class="item"><a class="color" href="#" id="six">Charles&nbsp;Oakley<br>&nbsp;Laboratories</a></div>
+</div>
+
+<div id="sidebar3">
+    <h3>Buildings</h3>
+    <div id="s10" class="item"><a class="color" href="#" id="seven">George&nbsp;Moore</a></div>
+    <div id="s11" class="item"><a class="color" href="#" id="eight">Hamish&nbsp;Wood</a></div>
+    <div id="s12" class="item"><a class="color" href="#" id="nine">Charles&nbsp;Oakley<br>&nbsp;Laboratories</a></div>
+</div>
+
+
+
+<div id="sidebar4">
+    <h3>Rooms</h3>
+    <div id="s13" class="item"><a class="color" id="thirteen" href="#">Room&nbsp;M123</a></div>
+    <div id="s14" class="item"><a class="color" id="fourteen" href="#">Room&nbsp;M124</a></div>
+    <div id="s15" class="item"><a class="color" id="fifteen" href="#">Room&nbsp;M125</a></div>
+</div>
+
+<div id="sidebar5">
+    <h3 >Rooms</h3>
+    <div id="s16" class="item"><a class="color" id="sixteen" href="#">Room&nbsp;W124</a></div>
+    <div id="s17" class="item"><a class="color" id="seventeen" href="#">Room&nbsp;W124</a></div>
+    <div id="s18" class="item"><a class="color" id="eighteen" href="#">Room&nbsp;W124</a></div>
+</div>
+
+<div id="sidebar6">
+    <h3>Rooms</h3>
+    <div id="s19" class="item"><a class="color" id="nineteen" href="#">Room&nbsp;C125</a></div>
+    <div id="s20" class="item"><a class="color" id="twenty" href="#">Room&nbsp;C125</a></div>
+    <div id="s21" class="item"><a class="color" id="twentyone" href="#">Room&nbsp;C125</a></div>
+</div>
+
+    <div id="sidebar7">
+        <h3>Rooms</h3>
+        <div id="s22" class="item"><a class="color" id="twentytwo" href="#">Room&nbsp;M126</a></div>
+        <div id="s23" class="item"><a class="color" id="twentythree" href="#">Room&nbsp;M126</a></div>
+        <div id="s24" class="item"><a class="color" id="twentyfour" href="#">Room&nbsp;M126</a></div>
+    </div>
+
+    <div id="sidebar8">
+        <h3>Rooms</h3>
+        <div id="s25" class="item"><a class="color" id="twentyfive" href="#">Room&nbsp;W127</a></div>
+        <div id="s26" class="item"><a class="color" id="twentysix" href="#">Room&nbsp;W127</a></div>
+        <div id="s27" class="item"><a class="color" id="twentyseven" href="#">Room&nbsp;W127</a></div>
+    </div>
+
+    <div id="sidebar9">
+        <h3>Rooms</h3>
+        <div id="s28" class="item"><a class="color" id="twentyeight" href="#">Room&nbsp;C128</a></div>
+        <div id="s29" class="item"><a class="color" id="twentynine" href="#">Room&nbsp;C128</a></div>
+        <div id="s30" class="item"><a class="color" id="thirty" href="#">Room&nbsp;C128</a></div>
+    </div>
+
+    <div id="sidebar10">
+        <h3>Rooms</h3>
+        <div id="s31" class="item"><a class="color" id="thirtyone" href="#">Room&nbsp;M129</a></div>
+        <div id="s32" class="item"><a class="color" id="thirtytwo" href="#">Room&nbsp;M129</a></div>
+        <div id="s33" class="item"><a class="color" id="thirtythree" href="#">Room&nbsp;M129</a></div>
+    </div>
+
+    <div id="sidebar11">
+        <h3>Rooms</h3>
+        <div id="s34" class="item"><a class="color" id="thirtyfour" href="#">Room&nbsp;W130</a></div>
+        <div id="s35" class="item"><a class="color" id="thirtyfive" href="#">Room&nbsp;W130</a></div>
+        <div id="s36" class="item"><a class="color" id="thirtysix" href="#">Room&nbsp;W130</a></div>
+    </div>
+
+    <div id="sidebar12">
+        <h3>Rooms</h3>
+        <div id="s37" class="item"><a class="color" id="thirtyseven" href="#">Room&nbsp;C131</a></div>
+        <div id="s38" class="item"><a class="color" id="thirtyeight" href="#">Room&nbsp;C131</a></div>
+        <div id="s39" class="item"><a class="color" id="thirtynine" href="#">Room&nbsp;C131</a></div>
+    </div>
+
+</div>
+
+
+    <div id="room1">
+        <h2>Room M123</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+            <img src="img/10.jpg" alt="pic" height="325" width="550"/>
+            <img src="img/9.jpg" alt="pic" height="325" width="550"/>
+            <img src="img/8.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room2">
+        <h2>Room M124</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/6.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/5.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room3">
+        <h2>Room M125</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <iframe class="video" width="550" height="325"
+                        src="http://www.youtube.com/embed/p6j8fuvQICI?feature=player_detailpage?hd=1" allowfullscreen>
+                </iframe>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+
+    <div id="room4">
+        <h2>Room W125</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room5">
+        <h2>Room W126</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room6">
+        <h2>Room W127</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <iframe class="video" width="550" height="325"
+                        src="http://www.youtube.com/embed/p6j8fuvQICI?feature=player_detailpage?hd=1" allowfullscreen>
+                </iframe>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+
+    <div id="room7">
+        <h2>Room C125</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room8">
+        <h2>Room C126</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room9">
+        <h2>Room C127</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+
+    <div id="room10">
+        <h2>Room M125</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room11">
+        <h2>Room M126</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room12">
+        <h2>Room M127</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+
+    <div id="room13">
+        <h2>Room W125</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+
+    <div id="room14">
+        <h2>Room W126</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room15">
+        <h2>Room W127</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+
+    <div id="room16">
+        <h2>Room C125</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room17">
+        <h2>Room C126</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room18">
+        <h2>Room C127</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+
+    <div id="room19">
+        <h2>Room M125</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room20">
+        <h2>Room M126</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id="room21">
+        <h2>Room M127</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <iframe class="video" width="550" height="325"
+                        src="http://www.youtube.com/embed/p6j8fuvQICI?feature=player_detailpage?hd=1" allowfullscreen>
+                </iframe>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+
+    <div id="room22">
+        <h2>Room W125</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla </p>
+
+    </div>
+
+    <div id="room23">
+        <h2>Room W126</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla</p>
+
+    </div>
+
+    <div id="room24">
+        <h2>Room W127</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla</p>
+
+    </div>
+
+
+    <div id="room25">
+        <h2>Room C125</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla</p>
+
+    </div>
+
+    <div id="room26">
+        <h2>Room C126</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla </p>
+
+    </div>
+
+    <div id="room27">
+        <h2>Room C127</h2>
+
+        <div class="gallery">
+
+            <button class="leftB" type="button">&larr;</button>
+            <button class="rightB" type="button">&rarr;</button>
+
+            <div class="images">
+                <img src="img/7.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/3.jpg" alt="pic" height="325" width="550"/>
+                <img src="img/2.jpg" alt="pic" height="325" width="550"/>
+            </div>
+
+        </div>
+
+        <h3>Description</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+            d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+            modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+            ore eu fugiat nulla </p>
+
+    </div>
+
+</div>
+
+
+    <!--Footer-->
+
+<img src="img/full_screen.png" class="fullscr" onclick="toggleFullScreen();" id="fsButton" height="22" width="22" alt="full_screen_button" >
+
+
+    <div id="footerBar">
+        <ul id="footer">
+            <li><a class="nav" href="Terms.html">Terms &amp; Conditions</a></li>
+            <li><a class="nav" href="Privacy.html">Privacy Policy</a></li>
+            <li><a class="nav" href="FAQ.html">FAQ</a></li>
+            <li><a class="nav" href="Mobile.html">Mobile</a></li>
+        </ul>
+        <div id="share-buttons">
+        <a href="http://www.facebook.com/sharer.php?u=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+        <a href="http://twitter.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+        <a href="https://plus.google.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+        </div>
+    </div>
+
+</body>
+</html>
