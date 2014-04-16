@@ -1,0 +1,45 @@
+h1, h2, h4{
+    margin-bottom:10px;
+}
+
+h1{
+    font-family:arial;
+    font-weight:bold;
+    color:#666666;
+    margin-left:10px;
+}
+
+#policyDesc{
+    width:1000px;
+    margin-top:30px;
+    color:#666666;
+    font-family:arial;
+    margin-left:15px;
+}
+
+#policyDesc a{
+    color:blue !important;
+}
+
+#policyDesc a:hover{
+    text-decoration:underline;
+}
+
+h5{
+    margin-top:-10px;
+}
+
+td p{
+    width:500px;
+}
+
+th{
+    text-align:left;
+    background: #f5f5f5;
+    padding:5px;
+}
+
+hr{
+    width:1180px;
+    margin-left:-3px;
+}

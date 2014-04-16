@@ -1,0 +1,31 @@
+h1, h2, h4{
+    margin-bottom:10px;
+}
+
+h1{
+    font-family:arial;
+    font-weight:bold;
+    color:#666666;
+    margin-left:10px;
+}
+
+#termsDesc{
+    width:1000px;
+    margin-top:30px;
+    color:#666666;
+    font-family:arial;
+    margin-left:20px;
+}
+
+#termsDesc a{
+    color:blue !important;
+}
+
+#termsDesc a:hover{
+    text-decoration:underline;
+}
+
+hr{
+    width:1180px;
+    margin-left:-3px;
+}

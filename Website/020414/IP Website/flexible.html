@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="js/jquery1110.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <title>Flexible Courses</title>
+    <script src="js/pageFade.js"></script>
+    <script src="js/fullScreen.js"></script>
+    <script src="js/courses.js"></script>
+    <script src="js/sticky.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/LayoutNav.css">
+    <link rel="stylesheet" type="text/css" href="css/clm.css">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
+</head>
+<body>
+
+<div id="loadBackground">
+    <img id="loader" src="img/loadingGif.gif" alt="loaderAnim">
+</div>
+
+<div id="content">
+
+    <a href="Index.html" class="nav"><img id="logo" src="img/gcu_logo.png" height="80" width="160" alt="logo" >  </a>
+
+    <form method="get" action="http://www.google.com/search">
+        <a href="AboutUs.html" class="line formEl nav">About Us</a>
+        <a href="SiteMap.html" class="formEl nav">Site Map</a>
+        <input type="text" name="q" size="37" maxlength="255" value="" placeholder="Search Google..." />
+    </form>
+
+
+    <!--Navigation-->
+
+    <div id="navBar">
+
+        <ul id="nav">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Map.html">SEBE Map</a></li>
+            <li><a href="Courses.html">Course List</a></li>
+            <li><a href="Accessibility.html">Accessibility</a></li>
+            <li><a href="Contacts.html">Contacts</a></li>
+        </ul>
+
+    </div>
+
+
+    <!--Content-->
+    <div id="sidemenu">
+        <h3 id="request">Please select a course</h3>
+        <div id='courselist'>
+            <ul>
+                <li class='has-sub'><a href='Courses.html'>Course List</a>
+                    <ul>
+                        <li><a href='undergraduate.html'>Undergraduate</a></li>
+                        <li><a href='postgraduate.html'>Postgraduate</a></li>
+                        <li><a href='flexible.html'>Flexible</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <table>
+        <caption id="captionSize">Flexible and Part-Time Courses</caption>
+        <tr>
+            <th>Award Type</th>
+            <th>Course Title</th>
+            <th>Duration</th>
+            <th>Attendance</th>
+            <th>Fee</th>
+            <th>Start Date</th>
+            <th class="lastH">Info</th>
+        </tr>
+        <tr>
+            <td>MA/PgD</td>
+            <td>3D Design for Virtual Environments</td>
+            <td>1 Year</td>
+            <td>Part Time</td>
+            <td>Cobtact us</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info">
+            <td colspan="7" ><h4>Programme Description</h4> <br>
+
+This programme is oriented towards current industrial needs, technology and practice and is intended to provide the students with the key skills required to develop both practical and theoretical proficiency in any specialist area of 3D animation. It aims to address the demand for visual designers with the creative vision and technical skills, needed to support core design skill sets that exploit the animation and visualisation processes.Working in a predominately digital environment, you will explore the relationships between the use of video and animation materials within digital video, multimedia and web publishing. This allows for the experimentation with interactive media types and techniques in order to enhance understanding, learning and product conceptualisation.<br> <br>
+
+<h4>Programme Structure</h4> <br>
+
+Modules: Digital Media Technology and Development, Video and Motion Graphic, Digital Media Publishing and Commercialisation, Digital Portfolio Production Techniques, Research and Project Methods, Project/Dissertation
+            	
+				
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>BA/BA (Hons)</td>
+            <td>Computer Games (Art & Animation)</td>
+            <td>4-5 Years</td>
+            <td>Part Time</td>
+            <td>Contact us</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info1'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info1">
+            <td colspan="7" ><h4>Programme Description</h4> <br>
+
+The BA (Hons) Computer Games (Art and Animation) programme is designed to provide 
+graduates with the right mix of practical skills and theoretical knowledge necessary for a career as a Game Artist. Game Art will appeal to students who wish to combine their 
+traditional art skills with cutting edge creative technology in 3D art, animation and motion graphics. The course is practically focused offering continual opportunity for portfolio development.<br> <br>
+
+<h4>What You'll Learn</h4> <br>
+
+<h4>Year 1:</h4> <br>
+ Design Process, 2D Design, Digital Design, 3D Visualisation, Digital Video, Design Context. <br>
+<h4>Year 2:</h4> <br>
+ Animation, 3D Modelling, Game Design, Portfolio Production, Interactive Media Programming, Motion Graphics. <br>
+<h4>Year 3:</h4> <br>
+ Lighting and Rendering Techniques, Advanced Animation, Individual Project, Group Project, Advanced Portfolio Production, Advanced 3D Modelling.<br>
+<h4>Year 4:</h4> <br>
+ Honours Project, Real-time 3D Graphics, Technical Animation, Industrial Project.
+            	
+				
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>BSc/BSc (Hons)</td>
+            <td>Computer Games (Design)</td>
+            <td>4-5 Years</td>
+            <td>Part Time</td>
+            <td>£4680.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info2'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info2">
+            <td colspan="7" ><h4>Programme Description</h4> <br>
+
+The video games industry continues to grow every year with constant advances made in the field of Video Games Technology. Subsequently, the software is always evolving in order to push the limits of this technology and produce more and more advanced computer gaming experiences for the increasingly sophisticated gamer. 
+The BSc/BSc (Hons) Computer Games programme suite aims to meet these continuing and development needs of the computer games industry.<br> <br>
+
+<h4>What You'll Learn</h4> <br>
+
+<h4>Year 1:</h4> <br>
+ Computer Systems Development, Database Development, Games Design, Web Development, Programming, Media Content Creation, Integrated Project 1, Computer Systems and Network Technology, Mathematics for Computer Games 1. 
+<h4>Year 2:</h4> <br>
+ Interactive Storytelling, Games Design 1, Software Modelling, Analysis and Design 1, Multimedia Authoring, Interaction Design, Integrated Project 2. 
+<h4>Year 3:</h4> <br>
+ Games Design 2, Psychology of Design, Graphic Design for Interactive Multimedia, Sequential Imagery Development, New Venture Creation, Integrated Project 3. <br>
+<h4>Year 4:</h4> <br>
+ Honours Project and Research Methods, Games Design 3, Honours Project, Reflective Practice for Personal Development, Serious Game Design. 
+<h4>Note:</h4> <br>
+ All Year 1 students on the suite of computing based programmes (BSc Computer Games, BSc Computing, BSc Information Technology Management for Business and BSc Networking and Systems Support) follow a common first year. This provides a taster in a variety of subject areas to help students confirm their choice of specialist programme for Year 2 onwards.      	
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>BSc/BSc (Hons)</td>
+            <td>Computer Games (Software Development)</td>
+            <td>4-5 Years</td>
+            <td>Part Time</td>
+            <td>£8400.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info3'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info3">
+            <td colspan="7" ><h4>Programme Description</h4> <br>
+
+Study the creation of computer games software in state-of-the-art facilities. You will utilise the most up-do-date tools of the industry to learn the many different skills involved in the creation of cutting edge games software.<br> <br>
+
+<h4>What You'll Learn</h4><br>
+
+<h4>Year 1:</h4> <br>
+ Computer Systems Development, Database Development, Games Design, Web Development, Programming, Media Content Creation, Integrated Project 1, Computer Systems and Network Technology, Mathematics for Computer Games 1. 
+<h4>Year 2:</h4> <br>
+ Games Design 1, Object Oriented Software Development, Software Modelling, Analysis and Design 1, Games Programming 1, Interaction Design, Integrated Project 2. 
+<h4>Year 3:</h4> <br>
+ Mathematics for Computer Games 2, Console Programming, Software Processes and Practices, Games Programming 2, Game Artificial Intelligence, Integrated Project 3. 
+<h4>Year 4:</h4> <br>
+ Honours Project and Research Methods, Games Programming 3, Honours Project, Reflective Practice for Personal Development, Rich Internet Applications. Note: All Year 1 students on the suite of computing based programmes (BSc Computer Games, BSc Computing, BSc Information Technology Management for Business and BSc Networking and Systems Support) follow a common first year. This provides a taster in a variety of subject areas to help students confirm their choice of specialist programme for Year 2 onwards.
+            	
+				
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>MSc/PgD</td>
+            <td>Construction Economics</td>
+            <td>2-5 Years</td>
+            <td>Part Time</td>
+            <td>£8400.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info4'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info4">
+            <td colspan="7" ><h4>Programme description</h4> <br>
+
+Designed to meet the unprecedented demand for financially aware construction professionals, the MSc Construction Economics, accredited by the Royal Institution of Chartered Surveyors (RICS), provides all the necessary skills. You will learn how to manage costs and the value of financial control in the modern industry.<br> <br>
+
+With construction professionals working in many different sectors, cost management is a key part of project delivery in the commercial world. In addition, the industry is driven by the need to find sustainable and environmentally sound construction methods and innovative management practices to replace traditional non-risk-sharing procurement routes. These new approaches require highly skilled professionals who are capable of taking up challenging roles in a range of specialist areas.<br> <br>
+
+Offering a wide choice of modules, which cover a range of issues relating to construction economics, the programme provides the necessary skills to manage costs and the value of construction projects.<br> <br>
+
+<h4>What you'll learn</h4> <br><br>
+
+<h4>Modules include:</h4> <br>
+Construction Economics and Procurement<br>
+Development and Project Economics<br>
+The Management of Safety, Health and Environmental Risks<br>
+Construction Contracts and Disputes<br>
+Construction Financial Management<br>
+International Construction Project Finance<br>
+Risk and Valuable Management<br>
+Project Management.<br>
+            	
+				
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>BEng/BEng (Hons)</td>
+            <td>Electrical Power Engineering</td>
+            <td>4-5 Years</td>
+            <td>Part Time</td>
+            <td>£46800.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info5'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info5">
+            <td colspan="7" ><h4>Programme Description</h4> <br>
+
+The production of Electrical Power and its management and control is at the heart of an infrastructure, provided by engineers, on which so much of our modern society depends. 
+Electrical Power Engineering encompasses the fields of power generation, transmission, distribution and utilisation, and is also concerned with energy conversion and the design of systems based upon electric motors and electronic drive technologies.<br> <br>
+
+<h4>What You'll Learn</h4> <br>
+
+<h4>Year 1:</h4> <br>
+ Engineering Computing 1, Electronic and Electrical Principles, Technology Management 1, Mechanical Principles A, Engineering Materials, Mathematics 1, Mechanical Principles B, Engineering Applications. 
+<h4>Year 2: </h4> <br>
+Electronic Engineering 2, Engineering Design and Analysis, Mathematics 2, Engineering Computing 2, Control Engineering 2, Manufacture & Materials 2, Project Methodology. 
+<h4>Year 3:</h4> <br>
+ Control Engineering 3, Integrated Studies 3, Plant and Electrical Distribution, Quality Assurance, Power Electronic Systems 3, Communications Engineering, Technology Management 3. 
+<h4>Year 4:</h4> <br>
+ Project, Power Plant Engineering, Digital Signal Processing, High Voltage Engineering, Condition Monitoring, Control Engineering 4.
+            	
+				
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>MSc/PgD</td>
+            <td>Maintenance Management</td>
+            <td>2 Years</td>
+            <td>Part Time</td>
+            <td>£2800.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info6'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info6">
+            <td colspan="7" >This MA in 3D visualisation and animation builds advanced skills, knowledge and understanding that can be applied to computer games development, film and television special effects, online virtual world development, architecture, product design, industrial design and marketing.</td>
+
+        </tr>
+
+        <tr>
+            <td>BEng/BEng (Hons)</td>
+            <td>Mechanical Electronic Systems Engineering</td>
+            <td>4 Years</td>
+            <td>Part Time</td>
+            <td>£46800.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info7'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info7">
+            <td colspan="7" ><h4>Programme Description</h4> <br>
+
+Mechanical Engineering is a highly integrated discipline, which harnesses the influence of a 
+range of other specialisms such as electronics, in the design and development of today’s 
+products. The engineering industry needs multidisciplined engineers with the ability to respond to the rapid changes taking place within the mechatronics industry. <br>
+This BEng programme provides an excellent opportunity to become a multi-skilled engineer, able to understand and utilise appropriate methods from a range of engineering disliplines.<br> <br>
+
+<h4>What You'll Learn</h4> <br>
+
+<h4>Year 1:</h4> <br>
+ Engineering Computing 1, Electronic and Electrical Principles, Technology Management 1, Mechanical Principles A, Engineering Materials, Mathematics 1, Mechanical Principles B, Engineering Applications. <br>
+<h4>Year 2:</h4> <br>
+ Electronic Engineering 2, Engineering Design and Analysis, Mathematics 2, Engineering Computing 2, Control Engineering 2, Manufacture and Materials 2, Electrical Systems. <br>
+<h4>Year 3:</h4> <br>
+ Control Engineering 3, Integrated Studies 3, Quality Assurance, Technology Management 3, Manufacturing and Materials 3, Engineering Analysis 3, Mechanical Engineering Design. <br>
+<h4>Year 4:</h4> <br>
+ Project, Finite Element Analysis, Engineering Design Process, Engineering Analysis 4, Control Engineering 4.
+
+
+            	
+				
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>MSc/PgD</td>
+            <td>Network Security</td>
+            <td>30 Month</td>
+            <td>Part Time</td>
+            <td>£3000.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info8'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info8">
+            <td colspan="7" ><h4>Programme Description</h4> <br>
+
+The programme aims to provide students with the knowledge and skills needed to build secure networks. It is concerned with the design and implementation of secure network infrastructures. It will include study of Security Technologies, Perimeter Security, Virtual Private Networking, and the Design, Installation, Configuration and Maintenance of Routers and Firewalls. The programme will be delivered with particular emphasis on hands-on experience, instructor-led and e-learning for students.<br> <br>
+
+
+            	
+				
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>BEng (Hons)</td>
+            <td>Networked Systems Engineering</td>
+            <td>4-5 Years	</td>
+            <td>Part Time</td>
+            <td>Contact us</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info9'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info9">
+            <td colspan="7" ><h4>Programme Description</h4> <br>
+
+The rapid growth in Local Area Network and Internet usage has led to a significant shift in the 
+overall range of skills required in providing for the successful implementation and use of Information Systems within an organisation. 
+There is a significant demand for well qualified and professional staff who can design, support and administer all aspects of the wide range of IT infrastructure and Information System Technologies utilised within all businesses and organisations.<br> <br>
+
+<h4>What You'll Learn</h4> <br>
+
+<h4>Year 1</h4> <br>
+Discrete Mathematics, Integrated Design Project 1, Introduction to Computer Architecture, Introduction to Computer Systems Development, Introduction to Database Development, Introduction to Network Technology, Introduction to Switched and Wireless Networks, Introduction to Web Development, Principles of Programmable Systems, Security Landscape<br>
+ 
+<h4>Year 2</h4> <br>
+Designing Secure Networks, Digital Forensics Essentials & Incident Response, Integrated Design Project 2, Operating Systems & Security, Routing Fundamentals, Software Development for Engineers<br>
+ 
+<h4>Year 3</h4> <br>
+Advanced Routing, Scalable Campus Networking, Data Communications and Transmission Systems, Enterprise Systems Engineering, Quantitative Modelling and Cryptography, Integrated Design Project 3<br>
+ 
+<h4>Year 4</h4> <br>
+Honours Research and Project Methods, Honours Project, Simulating Multimedia Networks, Pervasive Grids & Services, Professionalism in Practice, Network Troubleshooting, Optimising Converged Networks and  QoS             	
+				
+            </td>
+
+        </tr>
+
+    </table>
+
+</div>
+
+    <!--Footer-->
+
+<img src="img/full_screen.png" class="fullscr" onclick="toggleFullScreen();" id="fsButton" height="22" width="22" alt="full_screen_button" >
+
+<div id="footerBar">
+        <ul id="footer">
+            <li><a class="nav" href="Terms.html">Terms &amp; Conditions</a></li>
+            <li><a class="nav" href="Privacy.html">Privacy Policy</a></li>
+            <li><a class="nav" href="FAQ.html">FAQ</a></li>
+            <li><a class="nav" href="Mobile.html">Mobile</a></li>
+        </ul>
+        <div id="share-buttons">
+            <a href="http://www.facebook.com/sharer.php?u=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+            <a href="http://twitter.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+            <a href="https://plus.google.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+        </div>
+    </div>
+
+</body>
+</html>

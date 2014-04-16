@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="js/jquery1110.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <title>Undergraduate Courses</title>
+    <script src="js/pageFade.js"></script>
+    <script src="js/fullScreen.js"></script>
+    <script src="js/sticky.js"></script>
+    <script src="js/courses.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/LayoutNav.css">
+    <link rel="stylesheet" type="text/css" href="css/clm.css">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
+</head>
+<body>
+
+<div id="loadBackground">
+    <img id="loader" src="img/loadingGif.gif" alt="loaderAnim">
+</div>
+
+<div id="content">
+
+    <a href="Index.html" class="nav"><img id="logo" src="img/gcu_logo.png" height="80" width="160" alt="logo" >  </a>
+
+    <form method="get" action="http://www.google.com/search">
+        <a href="AboutUs.html" class="line formEl nav">About Us</a>
+        <a href="SiteMap.html" class="formEl nav">Site Map</a>
+        <input type="text" name="q" size="37" maxlength="255" value="" placeholder="Search Google..." />
+    </form>
+
+
+    <!--Navigation-->
+
+    <div id="navBar">
+
+        <ul id="nav">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Map.html">SEBE Map</a></li>
+            <li><a href="Courses.html">Course List</a></li>
+            <li><a href="Accessibility.html">Accessibility</a></li>
+            <li><a href="Contacts.html">Contacts</a></li>
+        </ul>
+
+    </div>
+
+
+    <!--Content-->
+    <div id="sidemenu">
+        <h3 id="request">Please select a course</h3>
+        <div id='courselist'>
+            <ul>
+                <li class='has-sub'><a href='Courses.html'>Course List</a>
+                    <ul>
+                        <li><a href='undergraduate.html'>Undergraduate</a></li>
+                        <li><a href='postgraduate.html'>Postgraduate</a></li>
+                        <li><a href='flexible.html'>Flexible</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+        <table>
+            <caption id="captionSize">Undergraduate Courses</caption>
+            <tr>
+                <th>Award Type</th>
+                <th>Course Title</th>
+                <th>Duration</th>
+                <th>Attendance</th>
+                <th>Fee</th>
+                <th>Start Date</th>
+                <th class="lastH">Info</th>
+            </tr>
+            <tr>
+                <td>BA/BA (Hons)</td>
+                <td>3D Computer Animation</td>
+                <td>4 Year</td>
+                <td>Full Time</td>
+                <td>£7000.00</td>
+                <td>15 September 2014</td>
+                <td><button onclick="ShowInfo('info'); change(this);">Show</button></td>
+            </tr>
+
+            <tr id="info">
+                <td colspan="7"> <h4>Programme Description:</h4> <br>
+					The BA (Hons) 3D Computer Animation provides the right mix of practical design skills and theory necessary for a career as a 3D animator.<br><br>
+				This programme allows you to combine traditional art skills with the latest creative technology in 3D animation, digital video and motion graphics.<br><br>
+				As a 3D Computer Animation student at GCU, you benefit from guest lecturers by industry experts plus an industrial-based project in Year 4.<br><br>
+				
+				<h4>Studio facilities include:</h4><br>
+				
+				3D Computer Animation Lab.<br>
+				HD Video Production Suite.<br>
+				Art Studio.<br>
+				Digital Audio Recording Studio. <br>
+				Game Design Studio featuring 3D Laser Scanning tools. <br>
+				Motion Capture tools.<br>
+				a Rapid Prototyping machine. <br><br>
+				
+				<h4>You'll Learn in this course:</h4><br>
+				<h4>Year 1:</h4><br>
+				 Design Process, 2D Design, Digital Design, 3D Visualisation, Digital Video, Design Context.<br>
+				 
+				<h4>Year 2:</h4><br>
+				 Animation, 3D Modelling, Portfolio Production, Interactive Media Programming, Motion Graphics.<br>
+				<h4>Year 3:</h4><br>
+				 Lighting and Rendering Techniques, Advanced Animation, Individual Project, Group Project, Advanced Portfolio Production, Advanced 3D Modelling.<br>
+				 
+				<h4>Year 4:</h4><br>
+				 Honours Project, Real-time 3D Graphics, Technical Animation, Industrial Project.<br><br>
+				 <h4>Note:</h4> <br> Year 1 is common to a number of other creative courses within the division of Computing and Creative Technology and is designed to give the student the opportunity to explore a range of creative disciplines.
+                    This offers the student the possibility of changing to one of these other courses at the start of Year 2.
+
+				</td>
+
+            </tr>
+
+            <tr>
+                <td>BSc/BSc (Hons)</td>
+                <td>Computer-Aided Mechanical Engineering</td>
+                <td>3-5 Years</td>
+                <td>Full Time</td>
+                <td>£7000.00</td>
+                <td>15 September 2014</td>
+                <td><button onclick="ShowInfo('info1'); change(this);">Show</button></td>
+            </tr>
+            <tr id="info1">
+                <td colspan="7" ><h4>Programme Description:</h4><br>
+					Computer Aided Mechanical Engineering allows engineers to design and test new products or systems without having to build prototypes. Essentially a form of ‘virtual engineering’, the engineer can design and analyse a product or system using the computer to accurately simulate real situations and stresses that may be placed upon it.
+                    This allows the engineer to identify and rectify any problems that the product may develop, saving the huge development costs of actually manufacturing and testing the product or system, only to discover a fault.<br><br>
+				
+				   <h4>You'll Learn in this course:</h4><br>
+					<h4>Year 1:</h4> <br>
+					 You will gain broad-based and solid coverage of the fundamentals of engineering including: Mechanical Eng. Principles, Engineering Materials, Electronic and Electrical Engineering. <br>
+					 
+					<h4>Year 2:</h4><br>
+					 Consists of a mix of more focused subject areas such as Computer Aided Engineering (CAD/CAM), Engineering Design and Analysis, Mechatronics, along with team based Project Studies. <br>
+					 
+					<h4>Year 3:</h4><br>
+					 More specialised knowledge of the programme is developed, such as Computer 
+					Aided Design, Engineering Analysis, Materials & Manufacture, Mechatronics and Computer Aided Manufacture. <br>
+					
+				     <h4>Year 4:</h4><br>
+					  The final Honours Year involves an interesting individual Project activity and extensive computer simulation and solutions based on Advanced Finite Element Analysis, Computer Integrated Manufacture and Computer Aided Design.<br>
+				</td>
+					
+				</tr>
+
+
+
+            <tr>
+                <td>BSc/BSc (Hons)</td>
+                <td>Computer Games (Design)	</td>
+                <td>4 Years</td>
+                <td>Full Time</td>
+                <td>£7000.00</td>
+                <td>15 September 2014</td>
+                <td><button onclick="ShowInfo('info2'); change(this);">Show</button></td>
+            </tr>
+            <tr id="info2">
+                <td colspan="7" ><h4>Programme Description</h4><br>
+					The video games industry continues to grow every year with constant advances made in the field of Video Games Technology. Subsequently, the software is always evolving in order to push the limits of this technology and produce more and more advanced computer gaming experiences for the increasingly sophisticated gamer. 
+					The BSc/BSc (Hons) Computer Games programme suite aims to meet these continuing and development needs of the computer games industry.<br><br>
+					
+				
+ 				   <h4>You'll Learn in this course:</h4><br>
+				   <h4>Year 1:</h4><br>
+				    Computer Systems Development, Database Development, Games Design, Web Development, Programming, Media Content Creation, Integrated Project 1, Computer Systems and Network Technology, Mathematics for Computer Games 1.<br>
+					
+				   <h4>Year 2:</h4><br> Interactive Storytelling, Games Design 1, Software Modelling, Analysis and Design 1, Multimedia Authoring, Interaction Design, Integrated Project 2.<br>
+				   
+				   <h4>Year 3:</h4><br>
+				    Games Design 2, Psychology of Design, Graphic Design for Interactive Multimedia, Sequential Imagery Development, New Venture Creation, Integrated Project 3.<br>
+					
+				   <h4>Year 4:</h4><br>
+				   Honours Project and Research Methods, Games Design 3, Honours Project, Reflective Practice for Personal Development, Serious Game Design.<br>
+				   
+				  <h4>Note:</h4> <br>
+                    All Year 1 students on the suite of computing based programmes (BSc Computer Games, BSc Computing, BSc Information Technology Management for Business and BSc Networking and Systems Support) follow a common first year. This provides a taster in a variety of subject areas to help students confirm their choice of specialist programme for Year 2 onwards.
+				   
+				</td>
+			</tr>
+
+
+
+
+            <tr>
+                <td>BSc/BSc (Hons)</td>
+                <td>Building Surveying</td>
+                <td>4 Years</td>
+                <td>Part Time</td>
+                <td>£4680.00</td>
+                <td>15 September 2014</td>
+                <td><button onclick="ShowInfo('info3'); change(this);">Show</button></td>
+            </tr>
+            <tr id="info3">
+                <td colspan="7" ><h4>Programme Description</h4> <br>
+					Chartered Building Surveyors offer professional advice on many areas relating to the occupation and construction of property, from the design of modern structures to facilities management. The extensive training ensures that they are well-grounded in building technology, the law, building contracts, costs (including running costs) and engineering services.
+                    Building Surveyors' long-established and appreciated skills include diagnosis and remedy of building faults, rehabilitation and extension of buildings, detailed building surveys, property appraisals, and the management of property.
+                    They are also involved in design, contract administration and budget control, planned maintenance, project management, building conservation and a variety of property-related activities, particularly in relation to Property Care.
+                    Building Surveyors also represent clients in building disputes and help untangle the complexities of planning and building controls.
+                    The Honours Degree is a five-year part-time programme. In order to be considered for admission to the programme, students must be employed in a Building Surveying capacity either in Private Practice, Public Authority, Statutory or Voluntary Body, or another approved area of employment.
+                    The programme is designed to integrate with the full-time BSc (Hons) in Building Surveying. Students generally attend all five years part-time but a mixture of part-time and full-time study modes is possible.<br><br>
+					
+					<h4>You'll Learn in this course:</h4><br>
+					<h4>Year 1:</h4><br>
+					 Studies include the principles of Construction Technology and Building Performance. Modules include Property Legislation,Economics and Cost Studies.<br>
+					 
+					<h4>Year 2:</h4><br>
+					You build on the foundation started in Year 1, with additional modules including Building Contracts, Structural Engineering, Health and Safety, Computer Aided Drawing and Land Surveying.<br>
+					
+					 <h4>Year 3:</h4><br>
+					  As well as undertaking a work placement for six to eight months, further studies include Construction Technology, Building Performance and Statutory Control.<br>
+					  <h4>Year 4:</h4><br>
+					   An Honours dissertation with options in areas such as Conservation, Facilities Management, Advanced CAD and the Internet. Other core modules include Project Management and Building Surveying Studies.
+				
+				</td>
+
+            </tr>
+
+
+
+            <tr>
+                <td>BEng/BEng (Hons)</td>
+                <td>Networked Systems Engineering</td>
+                <td>3-4 Years</td>
+                <td>Full Time</td>
+                <td>Contact us</td>
+                <td>15 September 2014</td>
+                <td><button onclick="ShowInfo('info4'); change(this);">Show</button></td>
+            </tr>
+            <tr id="info4">
+                <td colspan="7" ><h4>Programme Description</h4> <br>
+					The rapid growth in Local Area Network and Internet usage has led to a significant shift in the 
+overall range of skills required in providing for the successful implementation and use of Information Systems within an organisation. 
+There is a significant demand for well qualified and professional staff who can design, support and administer all aspects of the wide range of IT infrastructure and Information System Technologies utilised within all businesses and organisations.<br><br>
+
+                <h4>You'll Learn in this course:</h4><br>
+				<h4>Year 1</h4><br>
+				Discrete Mathematics, Integrated Design Project 1, Introduction to Computer Architecture, Introduction to Computer Systems Development, Introduction to Database Development, Introduction to Network Technology, Introduction to Switched and Wireless Networks, Introduction to Web Development, Principles of Programmable Systems, Security Landscape<br>
+ 
+				<h4>Year 2</h4><br>
+				Designing Secure Networks, Digital Forensics Essentials & Incident Response, Integrated Design Project 2, Operating Systems & Security, Routing Fundamentals, Software Development for Engineers<br>
+ 
+				<h4>Year 3</h4><br>
+				Advanced Routing, Scalable Campus Networking, Data Communications and Transmission Systems, Enterprise Systems Engineering, Quantitative Modelling and Cryptography, Integrated Design Project 3<br>
+ 
+				<h4>Year 4</h4><br>
+				Honours Research and Project Methods, Honours Project, Simulating Multimedia Networks, Pervasive Grids & Services, Professionalism in Practice, Network Troubleshooting, Optimising Converged Networks and  QoS<br>
+
+			</td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>BSc (Hons)</td>
+            <td>Fire Risk Engineering</td>
+            <td>5 Years</td>
+            <td>Part Time</td>
+            <td>£2300.00</td>
+            <td>15 September 2014</td>
+            <td><button onclick="ShowInfo('info5'); change(this);">Show</button></td>
+        </tr>
+        <tr id="info5">
+
+
+                <td colspan="7" ><h4>Programme Description</h4><br>
+					
+					This programme aims to assist you in the ability to develop, evaluate and explain appropriate fire protection and management systems. The modules in the early years focuses on the disciplines which underpin the design and evaluation of fire protection systems for buildings. There is also an emphasis on the development of problem-solving and communication skills as well as the application of theoretical principles and techniques. Students may graduate after
+                    Year 3 or progress to Honours where you will study the design of fire protection systems and advanced risk analysis techniques and apply these in a Risk Evaluation Project. Computer modelling is used extensively throughout the programme.<br><br>
+
+	                <h4>You'll Learn in this course:</h4><br>
+					 <h4>Year 1:</h4><br>
+					 Studies will develop a good foundation level understanding of building design, technology and performance.<br>
+					 <h4>Year 2:</h4><br>
+					 You are introduced to the principles of fire safety analysis and the practice of fire safety design and regulation. You will also develop an understanding of computer aided modelling techniques and risk management.<br>
+					 <h4> Year 3:</h4><br>
+					  There is an opportunity for students to undertake a work placement for six to eight months. You will extend your learning with studies such as fire dynamics,performance evaluation and fire safety data analysis.<br>
+					   <h4>Year 4:</h4><br>
+					    An Honours dissertation will be combined with further study of topics such as smoke control systems design and evacuation systems design and fire risk assessment.
+					
+				
+				
+				</td>
+
+            </tr>
+
+
+
+
+            <tr>
+                <td>BSc/BSc (Hons)</td>
+                <td>Audio Technology with Electronics</td>
+                <td>3-4 Years</td>
+                <td>Full Time</td>
+                <td>£7000.00</td>
+                <td>15 September 2014</td>
+                <td><button onclick="ShowInfo('info6'); change(this);">Show</button></td>
+            </tr>
+            <tr id="info6">
+                <td colspan="7" ><h4>Programme Description</h4><br>
+
+                    The BSc(Hons) Audio Technology with Electronics  is designed to give a firm grounding in audio with an emphasis on the technology and engineering that features in audio equipment and software. Drawing on the established engineering and audio expertise within the University, the programme covers the audio signal path from the recording process, through mixing and mastering, to distribution and transmission both from practical and theoretical standpoints.
+                    As the focus of the programme is on audio, opportunities will be given to acquire appropriate audio production skills in the
+                    university’s specialist studio facilities using a range of industry standard equipment and software. The other principle areas covered in the programme are that of acoustics both in relation to audio production and to musical instruments, digital signal processing, audio software design and development, physical computing and audio interface design and electronic engineering.<br><br>
+
+ <h4>You'll Learn in this course:</h4><br>
+
+<h4>Year 1:</h4><br>
+ Sound Production 1, Introduction to Audio Technology, Digital Electronics, Analogue Electronics, Digital Media Techniques, Mathematics 1, Integrated Project 1.<br>
+
+<h4>Year 2:</h4> <br>
+Sound Production 2, Sound reinforcement, Musical Acoustics, Electrical Principles and Circuit Theory, Signals and Electronic Systems, Integrated Project 2.<br>
+
+<h4>Year 3:</h4> <br>
+ Audio Processing and Effects, Audio and Interactivity, Signals and Electronic Systems Design, Mathematics 2, New Venture Creation, Group Project OR Volunteering in a Technical Role.<br>
+
+<h4>Year 4:</h4> <br>
+Honours Project / Honours Research and Project Methods, Acoustics and Spatial Sound, Advanced Audio Processing, Audio Software and Equipment Interface Design, Digital Signal Processing.<br>
+
+
+</td>
+
+            </tr>
+
+            <tr>
+                <td>BEng (Hons)</td>
+                <td>Mechanical And Power Plant Systems</td>
+                <td>3-4 Years</td>
+                <td>Full Time</td>
+                <td>Contact us</td>
+                <td>15 September 2014</td>
+                <td><button onclick="ShowInfo('info7'); change(this);">Show</button></td>
+            </tr>
+            <tr id="info7">
+                <td colspan="7" ><h4>Programme Description</h4><br>
+The aim of the programme is to develop the knowledge, understanding and competencies required to carry out duties of a senior Engineer Officer in the Merchant Navy. These competencies are equally applicable to someone involved in the design, operations and maintenance of power generation and electromechanical systems on land.<br><br>
+
+ <h4>You'll Learn in this course:</h4><br>
+
+<h4>Year 1:</h4> <br> N/A.
+<h4>Year 2:</h4> <br> N/A.
+<h4>Year 3:</h4> <br> Control Engineering 3, Industrial Studies, Plant and Electrical Distribution, Engineering Analysis 3, Power Electronic Systems 3, Mechanical Engineering Design. <br>
+<h4>Year 4:</h4> <br> Project, Engineering Analysis 4, Control Engineering 4, Engineering Design Process, Electrical Machines, Power Systems Technology<br>
+
+
+
+</td>
+
+            </tr>
+
+            <tr>
+                <td>BA/BA (Hons)</td>
+                <td>Computer Games (Art and Animation)</td>
+                <td>4 Years</td>
+                <td>Full Time</td>
+                <td>£7000.00</td>
+                <td>15 September 2014</td>
+                <td><button onclick="ShowInfo('info8'); change(this);">Show</button></td>
+            </tr>
+            <tr id="info8">
+                <td colspan="7" ><h4>Programme Description</h4><br>
+
+The BA (Hons) Computer Games (Art and Animation) programme is designed to provide 
+graduates with the right mix of practical skills and theoretical knowledge necessary for a career as a Game Artist. Game Art will appeal to students who wish to combine their 
+traditional art skills with cutting edge creative technology in 3D art, animation and motion graphics. The course is practically focused offering continual opportunity for portfolio development.<br><br>
+
+ <h4>You'll Learn in this course:</h4><br>
+<h4>Year 1:</h4><br>
+Design Process, 2D Design, Digital Design, 3D Visualisation, Digital Video, Design Context.<br>
+<h4>Year 2:</h4><br>
+Animation, 3D Modelling, Game Design, Portfolio Production, Interactive Media Programming, Motion Graphics.<br>
+<h4>Year 3:</h4> <br>
+ Lighting and Rendering Techniques, Advanced Animation, Individual Project, Group Project, Advanced Portfolio Production, Advanced 3D Modelling. <br>
+<h4>Year 4:</h4> <br>
+Honours Project, Real-time 3D Graphics, Technical Animation, Industrial Project.<br>
+
+
+
+</td>
+
+            </tr>
+
+
+            <tr>
+                <td>BSc (Hons)</td>
+                <td>Forensic Investigation</td>
+                <td>4 Years</td>
+                <td>Full Time</td>
+                <td>£7000.00</td>
+                <td>15 September 2014</td>
+                <td><button onclick="ShowInfo('info9'); change(this);">Show</button></td>
+            </tr>
+            <tr id="info9">
+                <td colspan="7" ><h4>Programme Description</h4><br>
+
+This programme is distinctive in that it marries a deep understanding of scientific principles with a broad and varied educational background which significantly enhances the graduate's employment prospects. The programme has been designed to give the graduate a solid science base on which to build.  The core of the programme is in Chemical Sciences with a substantial contribution from Biological Sciences, to underpin the main accident / incident theme. There is an option grouped into two academically coherent strands from in level 3 and level 4 (Honours), so that students can choose an Environmental Forensics or Forensic Biology strand, to address their particular interests or ambitions.<br><br>
+
+ <h4>You'll Learn in this course:</h4><br>
+<h4>Year 1:</h4><br>
+Introductory modules in Chemistry, Biosciences, Law, Maths and Physics. Introduction to Forensic Investigation, a scenario-based module, invites you to apply scientific expertise to real life forensic problems with also some elements of general Psychology to provide an introduction to the biological basis of behaviour and gives an insight into perception, learning and intelligence.  These themes are crucial in Forensic Investigation.<br>
+
+<h4>Year 2:</h4><br> The core Chemistry theme continues with Chemical Analysis, Organic and Inorganic Chemistry.  A Biology module (The Gene) underpins DNA profiling aspects.  Relevant Law is studied in the Civil and Criminal Procedure module.<br>
+
+<h4>Year 3:</h4><br>
+ Techniques learned in Instrumental Analytical Chemistry will be applied through Forensic Analysis to areas such as substances of abuse and the analysis of toxic residues and fire/major disaster incidents.  There will be an emphasis on making valid analytical measurements, including knowledge of the concepts of traceability, robustness and reliability, on which court cases often rely.  At this level there is the choice from two specialisms, Environmental Forensics and Forensic Biology, which are continued into level 4 (Honours).<br>
+<h4>Year 4:</h4><br>
+ In the Dissertation, each student has an individual lab based project relevant to a chosen forensic type problem. Again modular teaching is made relevant to real-life forensic type problem solving. Microscopy in Forensic Analysis is a major theme which includes both optical and state-of-the-art advanced techniques like atomic force microscopy.<br>
+   The two options continue:- Environmental Forensics and Forensic Biology.
+
+</td>
+
+            </tr>
+
+        </table>
+
+</div>
+
+    <!--Footer-->
+
+<img src="img/full_screen.png" class="fullscr" onclick="toggleFullScreen();" id="fsButton" height="22" width="22" alt="full_screen_button" >
+
+<div id="footerBar">
+        <ul id="footer">
+            <li><a class="nav" href="Terms.html">Terms &amp; Conditions</a></li>
+            <li><a class="nav" href="Privacy.html">Privacy Policy</a></li>
+            <li><a class="nav" href="FAQ.html">FAQ</a></li>
+            <li><a class="nav" href="Mobile.html">Mobile</a></li>
+        </ul>
+        <div id="share-buttons">
+            <a href="http://www.facebook.com/sharer.php?u=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+            <a href="http://twitter.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+            <a href="https://plus.google.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+        </div>
+    </div>
+
+</body>
+</html>

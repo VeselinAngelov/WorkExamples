@@ -1,0 +1,78 @@
+h1, h2, h4{
+    margin-bottom:10px;
+}
+
+h1{
+    font-family:arial;
+    font-weight:bold;
+    color:#666666;
+    margin-left:10px;
+}
+
+#faq{
+    width:730px;
+    margin-top:30px;
+    color:#666666;
+    font-family:arial;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+td p{
+    width:730px;
+}
+
+hr{
+    width:1180px;
+    margin-left:-3px;
+}
+
+table{
+    width:730px;
+    margin-bottom:-25px;
+    border-radius:7px;
+}
+
+tr:nth-child(odd) {
+    background-color: #ebebeb;
+}
+
+td{
+    font-family:arial;
+    font-size:15px;
+    padding:0px 10px 0px 10px;
+    border-radius:7px;
+    text-shadow: 1px 1px #ffffff;
+}
+
+td a:hover{
+    text-decoration:underline;
+}
+
+*[id*='ans']{
+    display:none;
+}
+
+.arrow{
+    margin-top:-2px;
+    margin-right:9px;
+    float:right;
+}
+
+.ftText{
+    margin-left:auto;
+    margin-right:auto;
+    width:270px;
+    margin-top:50px;
+    font-size:13.5px;
+    text-align:center;
+}
+
+.ftText a{
+    color:blue;
+    text-decoration:none;
+}
+
+.ftText a:hover{
+    text-decoration:underline;
+}

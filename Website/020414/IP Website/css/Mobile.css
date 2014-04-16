@@ -1,0 +1,13 @@
+#holderBox{
+    border:1px solid #555555;
+    color:#666666;
+    border-radius:15px;
+    padding:30px;
+    font-family: arial;
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:5px;
+}

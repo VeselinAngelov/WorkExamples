@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="js/jquery1110.js"></script>
+    <meta http-equiv="refresh" content="5; url=Index.html" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <title>Mobile</title>
+    <script src="js/pageFade.js"></script>
+    <script src="js/countdownTimer.js"></script>
+    <script src="js/sticky.js"></script>
+    <script src="js/fullScreen.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/LayoutNav.css">
+    <link rel="stylesheet" type="text/css" href="css/Mobile.css">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
+</head>
+<body>
+
+<div id="loadBackground">
+    <img id="loader" src="img/loadingGif.gif" alt="loaderAnim">
+</div>
+
+<div id="content">
+
+    <a href="Index.html" class="nav"><img id="logo" src="img/gcu_logo.png" height="80" width="160" alt="logo" >  </a>
+
+    <form method="get" action="http://www.google.com/search">
+        <a href="AboutUs.html" class="line formEl nav">About Us</a>
+        <a href="SiteMap.html" class="formEl nav">Site Map</a>
+        <input type="text" name="q" size="37" maxlength="255" value="" placeholder="Search Google..." />
+    </form>
+
+
+    <!--Navigation-->
+
+    <div id="navBar">
+
+        <ul id="nav">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Map.html">SEBE Map</a></li>
+            <li><a href="Courses.html">Course List</a></li>
+            <li><a href="Accessibility.html">Accessibility</a></li>
+            <li><a href="Contacts.html">Contacts</a></li>
+        </ul>
+
+    </div>
+
+
+    <!--Content-->
+    <div id="holderBox">
+
+        <h3>You will be redirected back to our homepage  in <span>5</span> seconds...</h3>
+
+        <p>
+            Sorry for any inconvenience this may have caused, but a mobile version is currently not available for this website.
+        </p>
+
+    </div>
+
+
+
+
+</div>
+
+<!--Footer-->
+
+<img src="img/full_screen.png" class="fullscr" onclick="toggleFullScreen();" id="fsButton" height="22" width="22" alt="full_screen_button" >
+
+
+<div id="footerBar">
+        <ul id="footer">
+            <li><a class="nav" href="Terms.html">Terms &amp; Conditions</a></li>
+            <li><a class="nav" href="Privacy.html">Privacy Policy</a></li>
+            <li><a class="nav" href="FAQ.html">FAQ</a></li>
+            <li><a class="nav" href="Mobile.html">Mobile</a></li>
+        </ul>
+        <div id="share-buttons">
+            <a href="http://www.facebook.com/sharer.php?u=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+            <a href="http://twitter.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+            <a href="https://plus.google.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+        </div>
+    </div>
+
+</body>
+</html>
